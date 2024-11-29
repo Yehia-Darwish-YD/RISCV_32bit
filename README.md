@@ -33,3 +33,7 @@ Execute: Perform calculations using the ALU.
 Memory: Access data for reading or writing.
 
 Writeback: Store results in registers.
+
+# Summary:
+This project implements a RISC-V 32-bit processor with single-cycle, multicycle, and pipelined execution models. It covers key concepts such as system speed (latency and throughput) and parallelism (spatial and temporal). The processor operates through a five-stage pipeline: Fetch, Decode, Execute, Memory, and Writeback, demonstrating the fundamentals of modern processor design and optimization.
+
