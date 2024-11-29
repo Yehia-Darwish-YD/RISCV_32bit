@@ -5,5 +5,7 @@ Developed a 32bit RISC-V pipelined processor inspired by Digital Design and Comp
 
 # Microarchitecture Overview:
 Single-Cycle: Executes each instruction in one cycle. Simple but constrained by the slowest instruction and requires separate instruction and data memory.
+
 Multicycle: Breaks execution into shorter cycles, reuses hardware, and uses single memory, improving efficiency but slowing individual instructions.
+
 Pipelined: Divides execution into stages for simultaneous instruction processing. Requires extra logic to manage dependencies and separate caches for high performance.
