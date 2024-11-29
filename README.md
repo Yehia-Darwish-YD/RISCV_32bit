@@ -9,3 +9,14 @@ Single-Cycle: Executes each instruction in one cycle. Simple but constrained by 
 Multicycle: Breaks execution into shorter cycles, reuses hardware, and uses single memory, improving efficiency but slowing individual instructions.
 
 Pipelined: Divides execution into stages for simultaneous instruction processing. Requires extra logic to manage dependencies and separate caches for high performance.
+
+# System Performance Overview:
+Latency: The time it takes for one input to go through the system.
+
+Throughput: How many inputs the system can handle in a given time.
+Types of Parallelism:
+
+Spatial: Multiple hardware units work on tasks at the same time.
+
+Pipelining: Tasks are split into steps, with each step handled simultaneously to speed up processing.
+Let me know if it needs further refinement!
