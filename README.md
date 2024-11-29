@@ -20,3 +20,16 @@ Spatial: Multiple hardware units work on tasks at the same time.
 
 Pipelining: Tasks are split into steps, with each step handled simultaneously to speed up processing.
 Let me know if it needs further refinement!
+
+![Screenshot 2024-11-29 165528](https://github.com/user-attachments/assets/587bc1aa-0fcb-40fd-b003-8ff40ec32b73)
+
+# Pipeline Stages:
+Fetch: Retrieve instructions from memory.
+
+Decode: Interpret instructions and prepare control signals.
+
+Execute: Perform calculations using the ALU.
+
+Memory: Access data for reading or writing.
+
+Writeback: Store results in registers.
